@@ -2,17 +2,24 @@
   "name": "my-accounting-site",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export"
   },
   "dependencies": {
-    "framer-motion": "^11.3.24",
+    "@emailjs/browser": "^4.4.1",
+    "@sendgrid/mail": "^8.1.3",
+    "emailjs-com": "^3.2.0",
+    "gsap": "^3.12.5",
     "next": "14.2.5",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-chatbotify": "^2.0.0-beta.4",
+    "react-dom": "^18.3.1",
+    "react-simple-chatbot": "^0.6.1"
   },
   "devDependencies": {
     "@types/node": "^20",
